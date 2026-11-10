@@ -1,0 +1,68 @@
+Data Analysis Project
+
+Every analysis must have:
+1) what?
+2) why?
+3) so what now?
+
+Business questions:
+Which product category and specific brands gave the highest total revenue?
+show percentage contribution of each category/brand
+
+Sneakers is the product that have the highest total revenue. 2 of the highest selling are Nike sneakers followed by Adidas sneakers.
+Nike is our most profitable brand, where both of its products which are sneakers and hoodie are in top 5 of the highest revenue. Adidas came in second.
+
+2) How preferences differ from countries?
+aggregation by country
+
+Sneakers are super popular in Japan, Australia, UK, and India.
+While Germany, USA, Canada prefers hoodie.
+Sneakers and hoodies dominate the streetwear market in most countries with sneakers having more than 60 units sold in total for most countries.
+However, 3 of the top 4 highest revenue from each country are hoodies.
+This means Germany, USA and Canada buyers are more favourable towards hoodie.
+The difference in product type preferences might be due to climate differences, where colder countries tend to prefer buying hoodie instead of sneakers.
+Sneakers is extremely high in sales in Japan because of the nature of the country where people there walk a lot.
+So, my suggestion is that we can increase our stocks for both hoodie and sneakers product.
+we can also invest on better and more effective marketing campaign strategy on countries with cold weather like UK and Japan (for hoodie), and countries that require people to walk a lot like USA (for sneakers) to boost our sales.
+
+3) How does prices compare to revenue? does higher prices = higher revenue or lower prices = lower revenue or something else?
+calculate summary statistics for unit price and amount by product type
+
+the analysis of correlation shows that unit price and the revenue have a strong positive relationship, this means that the higher the price of a unit of product, the larger the revenue.
+this simply means more expensive products are the engine to a profitable revenue.
+the same goes to quantity and revenue. more quantity sold means more revenue.
+as we look into the scatter plot, total revenue vs total price of all transaction, every product shows the exact same pattern which are positive relationship between unit price and revenue.
+however, the key variable here is the quantity sold. Since it has stronger relationship with revenue, a cheap product sold in large quantity could still generate more revenue than an expensive product with smaller volume.
+Hence, it is essential that we focuses on increasing the number of sales by increasing the quantity sold, for all products.
+And to increase that quantity, i suggest maybe offers a "buy 1 free 1" discount for cheaper products, or discount offer for expensive products, or in a larger scale launch new branches and stores across more locations.
+
+
+Temporal sales? time series chart for sales. are there any peaks or patterns of sales by month/quarter?
+parse date by monthly revenue
+
+time series chart shows that there is seasonal peak on March and July
+whereas sales drop drastically on April
+this significant drop causes from a combination of slight drop for hoodies, and extreme drop in sneakers sale. two of our biggest product type in revenue.
+however, after April, sales increase dramatically all the way to July.
+during the summer, customers tend to buy more sportswear products like sneakers, cap, joggers.
+while in certain countries, hoodies and sneakers still popular.
+one suggestion is keep our stock steady during off-peak periods. this is to increase profit, minimise loss and still keep the same revenue.
+
+5) How our customers prefer to pay? are there correlation payment mode and transaction amount?
+average transaction amount by payment mode
+
+based on the proportions of the payment method, 28.9% of our customers use COD for purchase. it is the largest proportion.
+however, in terms of revenue, COD actually have the lowest average amount at only $474.82 per transaction.
+on the other hand, both methods that have the largest average revenue, which are card and wallet each have same proportions of transaction, at 25.2%.
+this means that most customers tend to use card and wallet (transaction) for bigger purchase.
+our aim is to try to increase average transaction amount for COD while also giving options to COD customers to shift to another method.
+some suggestions to do so is increasing the threshold volume for free delivery. this way more customers will shift towards other methods and for those who still prefers cod, will have to pay more for a free delivery. hence, increasing our revenue.
+
+
+6) dashboard
+multi page
+interactive
+geographical map
+time series lines
+filtered by product category
+brief executive summary about 2-3 recommendations for next stock acquisition
